@@ -16,7 +16,6 @@ class Welcome extends Component {
       password:''
     };
     this.signup = this.signup.bind(this);
-    ```````````````````
   }
 
   signup(res, type) {
