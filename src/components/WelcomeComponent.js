@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import FacebookLogin from "react-facebook-login";
 import GoogleLogin from "react-google-login";
 import { PostData } from "../services/PostData";
-import Img from '../d1.png';
+import Image from '../d1.png';
 import { Redirect } from "react-router-dom";
 import { Form, Button, Row, Col } from "reactstrap";
 
@@ -71,7 +71,7 @@ class Welcome extends Component {
       <div className="container">
         <div className="row">
           <div className="col-sm-10 x ">
-            <img src={Img} alt="err"/>
+            <img src={Image} alt="err"/>
           </div>
         </div>
 
